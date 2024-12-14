@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.17)
 project(GVirtuS)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_EXTENSIONS ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 if("$ENV{GVIRTUS_HOME}" STREQUAL "")
     message(STATUS "Setting GVIRTUS_HOME=$ENV{HOME}/GVirtuS")
